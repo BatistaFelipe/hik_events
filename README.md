@@ -15,7 +15,7 @@ Single-file Python 3 script, no package layout, no external config.
 ```bash
 python -m venv .venv
 source .venv/Scripts/activate   # Windows (Git Bash) — use .venv/bin/activate on Linux/macOS
-pip install requests urllib3
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -68,3 +68,7 @@ mask, serialNo, pictureURL
 ```
 
 Any additional fields returned by the device are appended alphabetically — new firmware fields surface automatically.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
